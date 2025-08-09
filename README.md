@@ -17,16 +17,37 @@ We use a denoising convolutional neural networks (DnCNN) to denoise the ultrasou
   <img src="images/Data1/us_denoising.png" alt="Denoised ultrasound imaging" width="45%">
 </p>
 
+## Algorithm
+
 We can now merge the two images using the following algorithm.
 
 ```pseudo
 Input : Denoised US image, MRI image, hyperparameters
 Ouput : Fused Image
+Resize the MRI image to the size of the ultrasound image
 While the convergence criterion is satisfied :
-    update US image by a gradient descent
-    update MRI image by super-resolution
+    Update MRI image (x1)
+          Analytical resolution with FSR_xirm_NL
+          Convolution in the Fourier domain via HXconv
+          Adjusting MRI (x1) by measuring the deviation with ultrasound (x2) using the derivative of the polynomial approximation
+    Update US image (x2)
+          Gradient descent with Descente_grad_xus_NL
+          Minimising the discrepancy between the US image (x1) and the projected image f(x1)
+          Inclusion of adjustment terms (data fidelity, total variation).
 End
 ```
+
+- Analytical resolution
+
+$$\arg\min\limits_{x_1\in\mathbb{R}^N}\big\|y_m - SCx_1\big\|^2 + TV(x_1) + \tau_4\big\|x_2 - \chi(x_1)\big\|^2$$
+
+The two-dimensional Fourier transform is used to solve the linear system.
+
+- Gradient descent
+
+$$\arg\min\limits_{x_2\in\mathbb{R}^N}\underbrace{\sum \left(e^{y_u - x_2} - \gamma(y_u - x_2) \right)}_{\text{log-Rayleigh}} + \tau_2\big\|\nabla x_2\big\|^2 + \tau_3 \big\|x_2 - \chi(x_1)\big\|^2$$
+
+## Result
 
 <p align="center">
   <img src="images/Data1/fusion.png" alt="Fused Image" width="45%">
