@@ -18,6 +18,63 @@ We use a denoising convolutional neural networks (DnCNN) to denoise the ultrasou
   <img src="images/Data1/us_denoising.png" alt="Denoised ultrasound imaging" width="45%">
 </p>
 
+## Tree view
+
+```plaintext
+Fusion-of-Magnetic-Resonance-and-Ultrasound-Images-for-Endometriosis-Detection/
+├── images/
+│   ├── Data1/
+│   │   ├── fusion.png
+│   │   ├── fusion_figure.png
+│   │   ├── irm.mat
+│   │   ├── irm.png
+│   │   ├── mri_super_resolution.png
+│   │   ├── mri_super_resolution_figure.png
+│   │   ├── us.mat
+│   │   ├── us.png
+│   │   ├── us_denoising.png
+│   │   └── us_denoising_figure.png
+│   ├── Data2/
+│   │   ├── IRM_GT.mat
+│   │   ├── IRM_GT.png
+│   │   ├── IRM_observed.mat
+│   │   ├── IRM_observed.png
+│   │   ├── US_GT.mat
+│   │   ├── US_GT.png
+│   │   ├── US_observed.mat
+│   │   ├── US_observed.png
+│   │   ├── fusion_GT.png
+│   │   └── fusion_observed.png
+│   └── Data3/
+│   │   ├── IRM_GT.mat
+│   │   ├── IRM_GT.png
+│   │   ├── IRM_observed.mat
+│   │   ├── IRM_observed.png
+│   │   ├── US_GT.mat
+│   │   ├── US_GT.png
+│   │   ├── US_observed.mat
+│   │   ├── US_observed.png
+│   │   ├── fusion_GT.png
+│   │   └── fusion_observed.png
+├── models/
+│   └── sigma=25.mat
+├── utils/
+│   ├── Descente_grad_xus_NL.m
+│   ├── FSR_xirm_NL.m
+│   ├── FusionPALM.m
+│   ├── HXconv.m
+│   ├── Link.m
+│   ├── d1.m
+│   ├── d2.m
+│   ├── dtd.m
+│   ├── f1_NL.m
+│   └── grad_f1_NL.m
+├── Demo.m
+├── Demo_unidim.m
+├── README.md
+└── estimate_c.m           
+```
+
 ## Citations
 If you use the code or dataset, please cite the paper as below :
 ```bibtex
