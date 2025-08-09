@@ -113,6 +113,33 @@ Fusion-of-Magnetic-Resonance-and-Ultrasound-Images-for-Endometriosis-Detection/
 │   │   └── fusion_observed.png
 ├── models/
 │   └── sigma=25.mat
+├──synthetics/
+│   ├── images/
+│   │   ├── Data1/
+│   │   │   ├── irm.mat
+│   │   │   ├── irm.png
+│   │   │   ├── us.mat
+│   │   │   ├── us.png
+├── fusion_matlab.jpg
+│   │   ├── init_mi256_2.mat
+│   │   └── irm_simu.PNG
+│   ├── utils/
+│   │   ├── Descente_grad_xus_NL.m
+│   │   ├── FSR_xirm_NL.m
+│   │   ├── FusionPALM.m
+│   │   ├── HXconv.m
+│   │   ├── Link.m
+│   │   ├── d1.m
+│   │   ├── d2.m
+│   │   ├── dtd.m
+│   │   ├── f1_NL.m
+│   │   └── grad_f1_NL.m
+│   ├── Demo.asv
+│   ├── Synthetic1.asv
+│   ├── Synthetic1.m
+│   ├── Synthetic2.m
+│   ├── demo.m
+│   └── estimate_c.m
 ├── utils/
 │   ├── Descente_grad_xus_NL.m
 │   ├── FSR_xirm_NL.m
