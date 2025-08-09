@@ -174,4 +174,14 @@ If you use the code or dataset, please cite the paper as below :
   pages={5324-5335},
   keywords={Spatial resolution;Magnetic resonance imaging;Image fusion;Diseases;Magnetic resonance;Image fusion;magnetic resonance imaging;ultrasound imaging;super-resolution;despeckling;proximal alternating linearized minimization},
   doi={10.1109/TIP.2020.2975977}}
+
+@phdthesis{elman2020,
+url = "http://www.theses.fr/2020INPT0137",
+title = "Fusion of magnetic resonance and ultrasound images for endometriosis detection",
+author = "El Mansouri, Oumaima",
+year = "2020",
+note = "Thèse de doctorat dirigée par Basarab, AdrianTourneret, Jean-Yves et Kouamé, Denis Signal, Image, Acoustique et Optimisation Toulouse, INPT 2020",
+note = "2020INPT0137",
+url = "http://www.theses.fr/2020INPT0137/document",
+}
 ```
