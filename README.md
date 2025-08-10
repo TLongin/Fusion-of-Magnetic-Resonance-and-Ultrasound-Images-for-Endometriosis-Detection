@@ -169,7 +169,7 @@ The folder named `Synthetics` has been used to generate dataset 2 and datased 3.
 
 ## Python version of PALM algorithm
 
-A translation in Python of the code is available [here]().
+A translation in Python of the code is available [here](https://github.com/TLongin/Denoising-Diffusion-model-with-Proximal-Alternating-Linearized-Minimization). I translated this code into Python myself so that it could be used in a larger and more complicated Python code, which is a diffusion model for multi-modal image fusion.
 
 ## Citations
 If you use the code or dataset, please cite the papers as below :
