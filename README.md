@@ -5,7 +5,7 @@ This repository is an presentation of the Proximal Alternating Linearized Minimi
 ## Abstract
 This paper introduces a new fusion method for magnetic resonance (MR) and ultrasound (US) images, which aims at combining the advantages of each modality, i.e., good contrast and signal to noise ratio for the MR image and good spatial resolution for the US image. The proposed algorithm is based on an inverse problem, performing a super-resolution of the MR image and a denoising of the US image. A polynomial function is introduced to model the relationships between the gray levels of the MR and US images. The resulting inverse problem is solved using a proximal alternating linearized minimization algorithm. The accuracy and the interest of the fusion algorithm are shown quantitatively and qualitatively via evaluations on synthetic and experimental phantom data.
 
-## Experimental results
+## Experimental data
 In the article, we gave an illustration of the experimental model. We used a slice of beef steak of size 17 $\times$ 10 $\times$ 1.5 cm. On the top of wich was stuck a polyvinyl alcohol phantom (PVA), using cyanoacrylate instant glue. The phantom was created by using a spheroid plastic mold measuring 4.3 $\times$ 3 $\times$ 1.5 cm. The phantom substance was based on a mixture of deionized water (89%), PVA (10%, Sigma-Aldrich) and silica (1%, Sigma-Aldrich). Water was heated until 90°C. PVA was added slowly and dissolved using magnetic stirring (500 to 700 rpm during 1 hour). Silica was added just after PVA was fully solubilized. The prepared solution was then poured into the mold and submitted to freeze-thaw cycles until solidification.
 
 We obtain two images modalities : magnetic resonance imaging (MRI) and ultrasound imaging (US).
