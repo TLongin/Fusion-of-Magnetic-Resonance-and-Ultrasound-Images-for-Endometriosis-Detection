@@ -168,7 +168,7 @@ Fusion-of-Magnetic-Resonance-and-Ultrasound-Images-for-Endometriosis-Detection/
 The folder named `Synthetics` has been used to generate dataset 2 and datased 3. 
 
 ## Citations
-If you use the code or dataset, please cite the paper as below :
+If you use the code or dataset, please cite the papers as below :
 ```bibtex
 @article{9018380,
   author={El Mansouri, Oumaima and Vidal, Fabien and Basarab, Adrian and Payoux, Pierre and Kouamé, Denis and Tourneret, Jean-Yves},
