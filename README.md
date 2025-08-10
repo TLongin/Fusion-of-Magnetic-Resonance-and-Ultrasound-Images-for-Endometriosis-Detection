@@ -167,6 +167,10 @@ Fusion-of-Magnetic-Resonance-and-Ultrasound-Images-for-Endometriosis-Detection/
 
 The folder named `Synthetics` has been used to generate dataset 2 and datased 3. 
 
+## Python version of PALM algorithm
+
+A translation in Python of the code is available [here]().
+
 ## Citations
 If you use the code or dataset, please cite the papers as below :
 ```bibtex
