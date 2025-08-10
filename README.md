@@ -30,7 +30,8 @@ We can now merge the two images using the following algorithm.
 ```pseudo
 Input : Denoised US image, MRI image, hyperparameters
 Ouput : Fused Image
-Resize the MRI image to the size of the ultrasound image
+Resize the MRI image to the size of the ultrasound image by super-resolution
+Denoise US image with DnCNN 
 While the convergence criterion is satisfied :
     Update MRI image (x1)
           Analytical resolution with FSR_xirm_NL
