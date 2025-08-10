@@ -1,6 +1,8 @@
 # Fusion of Magnetic Resonance and Ultrasound Images for Endometriosis Detection
 
-This repository is an implementation of the Proximal Alternating Linearized Minimization algorithm for image fusion, as describe in the article [Fusion of Magnetic Resonance and Ultrasound Images for Endometriosis Detection](https://ieeexplore.ieee.org/document/9018380).
+This repository is an presentarion of the Proximal Alternating Linearized Minimization algorithm for image fusion, as describe in the article [Fusion of Magnetic Resonance and Ultrasound Images for Endometriosis Detection](https://ieeexplore.ieee.org/document/9018380). This article was written by Oumaima El Mansouri during her three-year PhD in signal, image, acoustics and optimisation. For interested readers, the full thesis is available [here](https://theses.hal.science/tel-04172488v1/file/El_-_mansouri_Oumaima.pdf).
+
+Since the original author of the article did not submit their research work to a Github repository, we are presenting it here.
 
 In the previous article, we gave a illustration of the experimental model. We used a slice of beef steak of size 17 $\times$ 10 $\times$ 1.5 cm. On the top of wich was stuck a polyvinyl alcohol phantom (PVA), using cyanoacrylate instant glue. The phantom was created by using a spheroid plastic mold measuring 4.3 $\times$ 3 $\times$ 1.5 cm. The phantom substance was based on a mixture of deionized water (89%), PVA (10%, Sigma-Aldrich) and silica (1%, Sigma-Aldrich). Water was heated until 90°C. PVA was added slowly and dissolved using magnetic stirring (500 to 700 rpm during 1 hour). Silica was added just after PVA was fully solubilized. The prepared solution was then poured into the mold and submitted to freeze-thaw cycles until solidification.
 
