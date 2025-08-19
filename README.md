@@ -85,7 +85,7 @@ Please let me know if you know what might be causing this noticeable difference.
 ```plaintext
 Fusion-of-Magnetic-Resonance-and-Ultrasound-Images-for-Endometriosis-Detection/
 ├── images/
-│   ├── Data1/
+│   ├── Data1/          # Images used as illustrations in Readme
 │   │   ├── fusion.png
 │   │   ├── fusion_figure.png
 │   │   ├── irm.mat
@@ -158,7 +158,7 @@ Fusion-of-Magnetic-Resonance-and-Ultrasound-Images-for-Endometriosis-Detection/
 │   ├── dtd.m
 │   ├── f1_NL.m
 │   └── grad_f1_NL.m
-├── Demo.m
+├── Demo.m          # Main file
 ├── Demo_unidim.m
 ├── README.md
 └── estimate_c.m           
