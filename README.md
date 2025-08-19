@@ -119,7 +119,7 @@ Fusion-of-Magnetic-Resonance-and-Ultrasound-Images-for-Endometriosis-Detection/
 │   │   ├── fusion_GT.png
 │   │   └── fusion_observed.png
 ├── models/
-│   └── sigma=25.mat
+│   └── sigma=25.mat          # Checkpoint for DnCNN model
 ├──synthetics/
 │   ├── images/
 │   │   ├── Data1/
